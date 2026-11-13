@@ -1,0 +1,10 @@
+{
+  "name": "zerouniversity-clone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Faithful 1:1 mirror of why.zero.university (Vite + Three.js WebGL + GSAP + Howler)",
+  "scripts": {
+    "dev": "node server.mjs public 4500",
+    "start": "node server.mjs public 4500"
+  }
+}

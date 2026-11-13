@@ -96,7 +96,7 @@
               already_exists: false,
               effective_position: 1234,
               waitlist_number: 5678,
-              referral_url: location.origin + '/?ref=LOCALDEMO',
+              referral_url: location.origin + location.pathname + '?ref=LOCALDEMO',
             });
           if (path.indexOf('Join-Zero-Beta-Waitlist-Profile') === 0)
             return json({ success: true, effective_position: 1234 });
